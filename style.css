@@ -1,0 +1,163 @@
+body {
+  margin: 0;
+  font-family: 'Bai Jamjuree', sans-serif;
+  text-align: center;
+  background-color: #f2f2f2;
+  /* remember quick search icloud sync etc are not center */
+}
+
+/* main{
+  padding: 10px;
+} */
+
+.header-container {
+  background-image: url('./images/bg-header-mobile.png');
+  text-align: center;
+  background-size: cover;
+  min-height: 363px;
+  margin-bottom: 100px;
+}
+
+p {
+  color: #9eabb2;
+  margin: 20px;
+}
+
+h1,
+h2,
+h3 {
+  color: #4c545c;
+  font-weight: 600;
+}
+
+.head-text {
+  padding: 14px;
+}
+
+.snippets {
+  padding-bottom: 100px;
+}
+
+.snippet-text {
+  padding-bottom: 20px;
+}
+
+.snippet-text h2 {
+  padding: 0 35px;
+}
+
+.snippet-text p {
+  padding: 12px;
+}
+
+.snippet-points {
+  padding: 14px;
+}
+
+.companies-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.companies img {
+  padding: 30px;
+}
+
+.clipboard h2 {
+  padding: 0 35px;
+}
+
+.clipboard p {
+  padding: 14px;
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.svg-col {
+  max-width: 350px;
+}
+.circle-logo {
+  /* background-image: url('./images/bg-header-mobile.png'); 
+  text-align: center;
+  background-size: cover;
+  min-height: 363px;  */
+  /* maybe delete */
+}
+
+.devices {
+  padding: 20px 0 50px;
+}
+
+.workflow {
+  padding: 30px;
+}
+
+.circle-logo img {
+  max-width: 125px;
+  max-height: 125px;
+  margin: 100px;
+}
+
+.circle-logo.foot img {
+  max-width: 55px;
+  max-height: 55px;
+}
+
+.ios-button {
+  background-color: #26bba4;
+  border-radius: 30px;
+  border: #979797;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 80%;
+}
+
+.mac-button {
+  background-color: #6174ff;
+  border-radius: 30px;
+  border: #979797;
+  color: white;
+  padding: 12px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width: 80%;
+}
+
+.buttons {
+  padding: 0 0px 20px;
+}
+
+.computer img {
+  width: 90%;
+}
+
+.devices img {
+  width: 90%;
+}
+
+footer {
+  background-color: #9eabb2;
+  display: flex;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+  text-decoration: none;
+}
+
+.circle-logo.foot img {
+  margin: auto;
+}
